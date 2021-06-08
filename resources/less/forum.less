@@ -1,7 +1,7 @@
 :root {
     --fld-bg: #2C2F33;
     --fld-bg-2: #23272A;
-    --fld-bg-2-transparent: #23272a83;
+    --fld-bg-2-transparent: #23272ae0;
     --fld-bg-3: #000000;
     --fld-blurple: #7289DA;
     --fld-blurple-new: #5539cc;
@@ -43,7 +43,12 @@ a {
 .App-header .Button:hover {
     color: var(--fld-white);
 }
-.App-header .Button, .App-header .Button:hover {
+
+.App-header .Button {
+    color: var(--fld-blurple) !important;
+}
+
+.App-header .Button:hover {
     color: var(--fld-white);
     background: var(--fld-blurple);
 }
@@ -82,7 +87,7 @@ a {
     color: var(--fld-grey)
 }
 .PostStream-item {
-    border-color: var(--fld-bg-2);
+    border-color: var(--fld-bg-2) !important;
 }
 .Post-body blockquote {
     background: var(--fld-bg-2);
@@ -107,4 +112,32 @@ a {
 }
 .DiscussionListItem-title {
     color: var(--fld-blurple);
+}
+
+// Mobile support
+.App-navigation {
+    background: var(--fld-blurple);
+}
+.App-primaryControl>.Button, .App-backControl>.Button {
+    color: var(--fld-white) !important;
+}
+.App-drawer {
+    background: var(--fld-bg-2);
+}
+.App-drawer .Button, .App-drawer .Button:hover {
+    color: var(--fld-grey);
+}
+.Dropdown .Dropdown-menu>li>a, .Dropdown .Dropdown-menu>li>button {
+    background: var(--fld-bg-2);
+}
+.Dropdown-separator {
+    background-color: var(--fld-bg);
+}
+.Dropdown .Dropdown-menu>li>a:hover, .Dropdown .Dropdown-menu>li>button:hover {
+    background: var(--fld-blurple);
+    color: var(--fld-white);
+}
+.Composer:not(.minimized):before {
+    background: var(--fld-blurple);
+    border-color: var(--fld-bg-2);
 }
