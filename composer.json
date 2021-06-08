@@ -25,9 +25,9 @@
     "flarum-extension": {
       "title": "Discord Theme",
       "icon": {
-        "name": "",
-        "backgroundColor": "",
-        "color": ""
+        "name": "fab fa-discord",
+        "backgroundColor": "#7289DA",
+        "color": "#FFFFFF"
       }
     },
     "flagrow": {
