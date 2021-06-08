@@ -4,7 +4,7 @@
     --fld-bg-2-transparent: #23272ae0;
     --fld-bg-3: #000000;
     --fld-blurple: #7289DA;
-    --fld-blurple-new: #5539cc;
+    --fld-blurple-new: #5865F2;
     --fld-white: #FFFFFF;
     --fld-grey: #99AAB5;
 }
@@ -165,4 +165,32 @@ a {
 .Post-footer .item-bestAnswerPost .Post-body {
     color: var(--fld-white);
     word-break: break-word;
+}
+.MentionsDropdown .PostPreview .username, .PostMention-preview .PostPreview .username, .Post-mentionedBy-preview .PostPreview .username {
+    color: var(--fld-white);
+    font-weight: bold;
+}
+.PostMention:hover, .UserMention:hover, .PostMention:active, .UserMention:active {
+    color: var(--fld-grey);
+}
+
+// Made here: https://discuss.flarum.org/d/26007-adding-author-label-to-posts
+article.CommentPost.Post.Post--by-start-user .Post-header h3 span.username:after {
+    content: "Author";
+    background: var(--fld-blurple-new) !important;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: var(--fld-white);
+    margin-left: 14px;
+    text-decoration: none;
+}
+
+.App-header .Button.Navigation-back {
+    color: var(--fld-white) !important;
+    background: var(--fld-blurple);
+}
+.App-header .Button.Navigation-back:hover {
+    color: var(--fld-white);
+    background: var(--fld-blurple-new);
 }
