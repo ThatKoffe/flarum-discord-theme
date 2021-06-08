@@ -15,9 +15,7 @@ use Flarum\Extend;
 
 return [
     (new Extend\Frontend('forum'))
-        ->css(__DIR__.'/resources/less/root.less'),
-        ->css(__DIR__.'/resources/less/web.less'),
-        ->css(__DIR__.'/resources/less/mobile.less'),
+        ->css(__DIR__.'/resources/less/forum.less'),
     
     new Extend\Locales(__DIR__ . '/resources/locale')
 ];
