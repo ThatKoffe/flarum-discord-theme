@@ -51,8 +51,16 @@ a {
 
 .App-header .Button:hover {
     color: var(--fld-white) !important;
-    background: var(--fld-blurple);
+    background: var(--fld-bg);
 }
+
+@media (min-width: 768px){
+    .App-header .Button:active, .App-header .Button.active, .App-header .Button:focus, .App-header .Button.focus, .App-header .open>.Dropdown-toggle.Button {
+        background: var(--fld-bg);
+        color: #ce9fef;
+    }
+}
+
 .Button:hover, .Button:focus, .Button.focus {
     background-color: var(--fld-blurple-new);
 }
@@ -126,7 +134,7 @@ a {
     background: var(--fld-bg-2);
 }
 .App-drawer .Button, .App-drawer .Button:hover {
-    color: var(--fld-grey);
+    color: var(--fld-white);
 }
 .Dropdown .Dropdown-menu>li>a, .Dropdown .Dropdown-menu>li>button {
     background: var(--fld-bg);
