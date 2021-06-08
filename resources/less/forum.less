@@ -176,14 +176,7 @@ a {
 
 // Made here: https://discuss.flarum.org/d/26007-adding-author-label-to-posts
 article.CommentPost.Post.Post--by-start-user .Post-header h3 span.username:after {
-    content: "Author";
     background: var(--fld-blurple-new) !important;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: var(--fld-white);
-    margin-left: 14px;
-    text-decoration: none;
 }
 
 .App-header .Button.Navigation-back {
@@ -239,4 +232,44 @@ article.CommentPost.Post.Post--by-start-user .Post-header h3 span.username:after
 }
 .Dropdown-menu>li.active>a, .Dropdown-menu>li.active>button {
     background: var(--fld-bg-2);
+}
+
+@media (min-width: 768px){
+    .unread .DiscussionListItem-count {
+        color: var(--fld-grey);
+        font-weight: 700;
+    }
+}
+
+// Support for tags..
+@media (min-width: 768px){
+    .TagDiscussionModal .Modal-header {
+        background: var(--fld-bg-2);
+    }
+}
+.Modal-body .FormControl {
+    background-color: var(--fld-bg-2);
+    color: var(--fld-white);
+}
+.SelectTagList {
+    background: var(--fld-bg);
+}
+.SelectTagList>li.active {
+    background: var(--fld-bg-2);
+}
+
+// scrollbar
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--fld-bg-2);
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
 }
