@@ -1,7 +1,7 @@
 :root {
     --fld-bg: #2C2F33;
     --fld-bg-2: #23272A;
-    --fld-bg-2-light: #3d4246;
+    --fld-bg-2-dark: #1b2028;
     --fld-bg-2-transparent: #23272ae0;
     --fld-bg-3: #000000;
     --fld-blurple: #7289DA;
@@ -284,8 +284,17 @@ article.CommentPost.Post.Post--by-start-user .Post-header h3 span.username:after
     border-radius: 10px;
 }
 
+// Modal footer support
+.Modal-footer {
+    background: var(--fld-bg-2);
+}
+
 // Tag support
 .TagLabel {
-    background: var(--fld-bg-2-light);
+    background: var(--fld-bg-2-dark);
     color: var(--fld-grey);
+}
+// Hero support
+.Hero {
+    background: #1b2028;
 }
