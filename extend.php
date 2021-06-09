@@ -12,6 +12,8 @@
 namespace Serakoi\FlarumDiscordTheme;
 
 use Flarum\Extend;
+use Flarum\Api\Serializer\ForumSerializer;
+use Flarum\Api\Event\Serializing;
 
 return [
     (new Extend\Frontend('forum'))
@@ -21,4 +23,6 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less'),
     new Extend\Locales(__DIR__.'/locale'),
+    (new Extend\Settings)
+        ->serializeToForum('authorBadgeText', 'serakoi-flarumdiscordtheme.authorbadgetext')
 ];

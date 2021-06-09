@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 
 app.initializers.add('serakoi/flarum-discord-theme', function () {
   app.extensionData["for"]('serakoi-flarumdiscordtheme').registerSetting({
-    setting: 'serakoi-flarumdiscordtheme.coordinates',
+    setting: 'serakoi-flarumdiscordtheme.authorbadgetext',
     name: 'authorBadgeText',
     type: 'text',
     label: app.translator.trans('flarum-discord-theme.admin.settings.authorBadge.label'),
