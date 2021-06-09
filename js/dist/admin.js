@@ -112,7 +112,6 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flarum/app */ "flarum/app");
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_app__WEBPACK_IMPORTED_MODULE_0__);
-// Big thanks to: https://discuss.flarum.org/u/Justoverclock for helping!
 
 flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('serakoi/flarumdiscordtheme', function () {
   flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]('serakoi-flarumdiscordtheme').registerSetting({

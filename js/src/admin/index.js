@@ -1,4 +1,3 @@
-// Big thanks to: https://discuss.flarum.org/u/Justoverclock for helping!
 import app from 'flarum/app';
 
 app.initializers.add('serakoi/flarumdiscordtheme', () => {

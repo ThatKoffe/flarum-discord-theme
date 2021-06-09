@@ -1,6 +1,6 @@
 {
-  "name": "serakoi/flarum-discord-theme",
-  "description": "Add a discord theme to your forum!",
+  "name": "serakoi/flarumdiscordtheme",
+  "description": "Discord Theme for Flarum",
   "keywords": [
     "flarum"
   ],
@@ -10,12 +10,12 @@
     "flarum/core": "^1.0.0"
   },
   "require-dev": {
-    "flarum/testing": "^0.1.0-beta.16"
+    "flarum/testing": "^1.0.0"
   },
   "authors": [
     {
-      "name": "Seer",
-      "email": "admin@seer-software.com",
+      "name": "Serakoi",
+      "email": "info@serakoi.com",
       "role": "Developer"
     }
   ],
@@ -31,12 +31,12 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "Discord Theme",
+      "title": "FlarumDiscordTheme",
       "category": "",
       "icon": {
-        "name": "fab fa-discord",
-        "backgroundColor": "#5865F2",
-        "color": "#FFFFFF"
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
       }
     },
     "flagrow": {
