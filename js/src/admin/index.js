@@ -5,7 +5,7 @@ app.initializers.add('serakoi/flarumdiscordtheme', () => {
     setting: 'serakoi-flarumdiscordtheme.coordinates',
     name: 'Mynamesettings',
     type: 'text',
-    label: app.translator.trans('serakoi-flarumdiscordtheme.admin.settings.authorBadge.label'),
-    help: app.translator.trans('serakoi-flarumdiscordtheme.admin.settings.authorBadge.help'),
+    label: app.translator.trans('serakoi-flarumdiscordtheme.admin'),
+    help: app.translator.trans('serakoi-flarumdiscordtheme.admin'),
   });
 });

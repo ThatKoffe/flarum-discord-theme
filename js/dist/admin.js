@@ -118,8 +118,8 @@ flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('serakoi/flar
     setting: 'serakoi-flarumdiscordtheme.coordinates',
     name: 'Mynamesettings',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('serakoi-flarumdiscordtheme.admin.settings.authorBadge.label'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('serakoi-flarumdiscordtheme.admin.settings.authorBadge.help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('serakoi-flarumdiscordtheme.admin'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('serakoi-flarumdiscordtheme.admin')
   });
 });
 
