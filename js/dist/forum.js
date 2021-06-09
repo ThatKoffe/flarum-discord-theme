@@ -110,8 +110,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-app.initializers.add('serakoi/flarum-discord-theme', function () {
-  console.log('[serakoi/flarum-discord-theme] Hello, forum!');
+app.initializers.add('serakoi/flarumdiscordtheme', function () {
+  console.log('[serakoi/flarumdiscordtheme] Hello, forum!');
 });
 
 /***/ })
