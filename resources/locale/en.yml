@@ -1,0 +1,6 @@
+flarum-discord-theme:
+  admin:
+    settings:
+      authorBadge: 
+        label: Author Badge Text
+        help: What text the badge should display
