@@ -34,9 +34,9 @@
       "title": "Discord Theme",
       "category": "",
       "icon": {
-        "name": "",
-        "backgroundColor": "",
-        "color": ""
+        "name": "fab fa-discord",
+        "backgroundColor": "#5865F2",
+        "color": "#FFFFFF"
       }
     },
     "flagrow": {
